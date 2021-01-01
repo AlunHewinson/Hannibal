@@ -17,6 +17,13 @@ tbroute <- rawroute %>%
 distances <- distGeo(tbroute) %>% 
   c(0, .) %>% rev() %>% magrittr::extract(-1) %>% rev()
 tbroute$dist <- distances
-tbroute %>% print()
+tbroute$cdist <- cumsum(distances)
+#tbroute %>% print()
+# tbroute %>%
+#   slice() %>% 
+#   select(lon, lat) %>% plot(xlim=c(15, 16), ylim=c(38, 38.5))
 
 tbroute %>% write_csv("data/route_Europe.csv")
+
+
+
