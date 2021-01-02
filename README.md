@@ -8,9 +8,9 @@ To add up my walking and cycling throughout 2021 map to a Hannibal-inspired rout
 [x] Get data for European leg of journey from Google Earth  
 [x] Process the Europe data to determine how far the African stage needs to be  
 [x] Write script to read GFit data into R  
-[ ] Decide route and get data for African leg of journey from Google Earth (needs to be 317.780km)  
-[ ] Write script to compare GFit data to route data, calculate progress  
-[ ] Visualise position on route (leaflet)  
+[x] Decide route and get data for African leg of journey from Google Earth (needs to be 317.864km)  
+[x] Write script to compare GFit data to route data, calculate progress  
+[x] Visualise position on route (leaflet)  
 
 ## Stretch goals
 ( ) Write Twitter bot to fire out daily updates?  
